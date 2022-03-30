@@ -1,0 +1,162 @@
+/* Created on : 09/05/2019, 17:13:33 Author     : andrei */
+
+@charset "utf-8";
+
+@font-face{
+    font-family: 'fonteTrebuchet';
+    src: url(../font/trebuchet-ms.ttf);
+}
+
+body{
+    font-family: fonteTrebuchet;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+#div-central{
+    margin: 30px auto 20px auto;
+    width: 800px;
+}
+
+/* tabela ping */
+table#ping{
+    border-collapse: collapse;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+table#ping thead{
+    background-color: #05a;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+table#ping tbody{
+    color: #474747;
+    font-family: monospace;
+}
+table#ping tfoot{
+    background-color: #05a;
+    color: #fff;
+    font-size: 14px;
+}/**/
+
+/* celulas da tabela */
+table#ping th,
+table#ping td{
+    border-right: 1px #05a solid;
+    border-bottom: 1px #05a solid;
+    border-left: 1px #05a solid;
+}/**/
+
+/* colunas */
+table#ping th:nth-child(1){/* 1 col andar */
+    width: 100px;
+}
+table#ping th:nth-child(2){/* 2 col setor */
+    width: 140px;
+}
+table#ping th:nth-child(3){/* 3 col tipo */
+    width: 140px;
+}
+table#ping th:nth-child(4){/* 4 col host*/
+    width: 100px;
+}
+table#ping th:nth-child(5){/* 5 col estado */
+    width: 80px;
+}
+table#ping th:nth-child(6){/* 6 col taxa */
+    width: 80px;
+}
+table#ping th:nth-child(7){/* 7 col porta */
+    width: 20px;
+}
+
+
+table#ping td:nth-child(1){/* 1 col andar */
+    padding-left: 5px;
+    text-align: left;
+}
+table#ping td:nth-child(2){/* 2 col setor */
+    padding-left: 5px;
+    text-align: left;
+}
+table#ping td:nth-child(3){/* 3 col tipo */
+    padding-left: 5px;
+    text-align: left;
+    text-transform: lowercase;
+}
+table#ping td:nth-child(4){/* 4 col host*/
+}
+table#ping td:nth-child(5){/* 5 col estado */
+    padding-right: 5px;
+    text-align: right;
+}
+table#ping td:nth-child(6){/* 6 col taxa */
+    text-align: right;
+}
+table#ping td:nth-child(7){/* 7 porta */
+    margin: 0px;
+    padding: 0px;
+}
+/**/
+
+input.text-cad{
+    float: left;
+    border: solid 1px #acf;
+    margin: 0px 5px 0px 0px;
+    width: 175px;
+}
+input.btn-cad{
+    background: transparent;
+    background-image: url(../img/add.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    margin: 0px 0px 0px 5px;
+    width: 20px;
+}
+input.text-edt{
+    float: left;
+    border: solid 1px #acf;
+    margin: 0px 5px 0px 0px;
+    width: 175px;
+}
+input.btn-edt{
+    background: transparent;
+    background-image: url(../img/confirm.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    margin: 0px 0px 0px 5px;
+    width: 20px;
+}
+a{
+    margin: 0px;
+    padding: 0px;
+}
+img.edt-del{
+    height: 18px;
+    margin: 1px 0px 1px 0px;
+    padding: 0px;
+    vertical-align: bottom;
+}
+img.confir-edt{
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    width: 20px;
+}
+.verde{
+    color: #090;
+}
+.vermelho{
+    color: #d11;
+}
+.azul{
+    color: #33d
+}/**/
